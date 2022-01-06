@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Kevin Zhou</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">KZ</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About Me</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#interests" class="navbar__links" id="interests-page">Interests</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Hello! My name is</span></h1>
+            <h1 class="hero__headingName">Kevin Zhou</h1>
+            <p class="hero__description">Welcome to my website</p>
+            <!--add more designs here later-->
+        </div>
+    </div>
+
+    <!--About Section-->
+    <div class="main" id="about">
+        <div class="top-section">
+            <div class="top-section-text">
+                <h1>About Me</h1>
+                <p>Hey there! I am a 1st year Mechatronics Engineering student at the University of Waterloo who has a passion for learning new things and exploring new ideas</p>    
+            </div>
+        </div>
+        <div class="main__container">
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skills__container">
+                    <div class="skills__content">
+                        <img src="img/C++.png" alt="C++">
+                        <p>C++</p>
+                    </div>
+                    <div class="skills__content">
+                        <img src="img/python.png" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div class="skills__content">
+                        <img src="img/HTML.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skills__content">
+                        <img src="img/CSS.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skills__content">
+                        <img src="img/javascript.png" alt="Javascript">
+                        <p>Javascript</p> 
+                    </div>                       
+                </div>
+                <h5>CAD Software</h5>
+                <div class="skills__container">
+                    <div class="skills__content">
+                        <img src="img/autocad.png" alt="AutoCAD">
+                        <p>AutoCAD</p>
+                    </div>
+                    <div class="skills__content">
+                        <img src="img/solidworks.png" alt="Solidworks">
+                        <p>Solidworks</p> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Projects Section-->
+    <div class="projectSection" id="projects">
+        <h1>Projects</h1>
+        <div class= "projects__container">
+            <div class="card">
+                <h3 class="card__title">Lego Robot Color Sorter</h3>
+                <p class="card__body">Built and programmed a Lego Mindstorms Robot 
+                    capable of grabbing a ball and transporting it to an area based on the
+                    color of the ball. Used various motors and sensors in tandem to perform tasks. Utilized RobotC (similar to C++)</p>
+            </div>
+            <div class="card">
+                <h3 class="card__title">Parking Spot Assigner</h3>
+                <p class="card__body">Assigned parking spots based on preset criteria. Stored data in arrays. Read and wrote to files.
+                    Organized formatting of files to be more readable on output. Utilized C++.
+                </p>
+                <a class="project-link" href="https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki">
+                    Github Link
+                </a>
+            </div>
+            <div class="card">
+                <h3 class="card__title">Minesweeper</h3>
+                <p class="card__body">Minesweeper clone made to get familiar with Python. Used 2D arrays
+                    to map out the board. Utilized Python.
+                </p>
+                <a class="project-link" href="https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki">
+                    Github Link
+                </a>
+            </div>
+            <div class="card">
+                <h3 class="card__title">JS Snake Game</h3>
+                <p class="card__body">Basic Snake Game clone made using HTML and JS.</p>
+                <a class="project-link" href="https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki">
+                    Github Link
+                </a>
+            </div>
+            <div class="card">
+                <h3 class="card__title">Conveyor Belt Design</h3>
+                <p class="card__body">Followed design process to design a conveyor belt from scratch.
+                    Starting with research to modeling in Solidworks to implementing sensors and actuators to sort different boxes.
+                    Tested sorting logic with simulator.
+                </p>
+            </div>
+            <div class="card">
+                <h3 class="card__title">Phone Stand Design</h3>
+                <p class="card__body">Designed and printed a useable phone stand. Considered multiple
+                    factors such as charging port and screen visibility.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Interests Section-->
+    <div class="interestSection" id="interests">
+        <h1>Interests</h1>
+        <div class="interests__container">
+            <div class="interest-card">
+                <img src="img/robot.jpg">
+                <p class="interest-card__title">Robotics</p>
+            </div>
+            <div class="interest-card">
+                <img src="img/statistics.png">
+                <p class="interest-card__title">Statistics</p>
+            </div>
+            <div class="interest-card">
+                <img src="img/basketball.jpg">
+                <p class="interest-card__title">Sports</p>
+            </div>
+            <div class="interest-card">
+                <img src="img/hiking.jpg">
+                <p class="interest-card__title">Hiking</p>
+            </div>
+            <div class="interest-card">
+                <img src="img/games.jpg">
+                <p class="interest-card__title">Video Games</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Section-->
+    <div class="contactSection" id="contact">
+        <h1>Contact</h1>
+        <div class="contact__container">
+            <a class="contact-link" href="https://github.com/kevinzhou3">
+                Github
+            </a>
+            <!--
+            <a class="contact-link" href="https://www.linkedin.com/in/kevinzhou43/">
+                Outlook
+            </a>
+            -->
+            <a class="contact-link" href="https://www.linkedin.com/in/kevinzhou43/">
+                Linkedin
+            </a>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
